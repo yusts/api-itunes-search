@@ -1,0 +1,41 @@
+.footer {
+    background: #2d2d2d;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    grid-area: footer;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+
+.footer h3 {
+    font-weight: normal;
+}
+
+.footer span {
+    display: inline-block;
+    position: relative;
+}
+
+.footer span::before {
+    position: absolute;
+    width: 50px;
+    right: 100%;
+    margin-right: 15px;
+    height: 50%;
+    border-bottom: 1px solid #bab7b7;
+    content: "";
+}
+
+.footer span::after {
+    position: absolute;
+    width: 50px;
+    left: 100%;
+    margin-left: 15px;
+    height: 50%;
+    border-bottom: 1px solid #bab7b7;
+    content: ""
+}

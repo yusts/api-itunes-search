@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  grid-template-areas: 
+  "header header header header header header header header header"
+  "search search search search search search search search search"
+  "songs songs songs songs songs songs songs songs songs"
+  "footer footer footer footer footer footer footer footer footer"
+  ;
+  min-height: 100vh;
+  position: relative;
+}
+
+.header {
+  grid-area: header;
+}
+
+.search-box {
+  grid-area: header;
+}
+
+.found {
+  grid-area: songs;
+}
+
+.footer {
+  grid-area: footer;
+}
