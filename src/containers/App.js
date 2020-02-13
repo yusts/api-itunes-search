@@ -24,7 +24,7 @@ class App extends Component{
     let input = this.state.input.toUpperCase();
     if (input === "") input = " ";
     
-    const url = `https://itunes.apple.com/search?term=${input}&entity=song`;
+    let url = `https://itunes.apple.com/search?term=${input}&entity=song`;
     fetch(url)
     .then(response => response.json())
     .then(response =>
